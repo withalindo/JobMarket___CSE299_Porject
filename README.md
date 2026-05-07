@@ -12,7 +12,7 @@ The platform leverages a React-based frontend for a seamless user experience, a 
 
 - [Overview](#overview)
 - [Features](#features)
-- [Project Structure](#project-structure)
+- [Project Structure](#project-structure) 
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
