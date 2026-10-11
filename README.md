@@ -357,6 +357,4 @@ Upload rules: images must be JPG, PNG, WEBP or GIF; resumes must be PDF; the lim
 2. Run `npm run lint` before committing
 3. Commit, push, and open a pull request
 
-## License
 
-The backend package declares the ISC license. No separate license file has been added yet.
