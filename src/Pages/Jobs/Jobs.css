@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jobs{
+    
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "kumbh sans";
+}
+.jobs .header{
+    border-bottom: 1px solid white;
+    margin-bottom: 3vh;
+}
+.jobs .JobsArea .searchPart{
+    
+    width: 95%;
+    padding: 2vh;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 2vh;
+}
+.jobs .JobsArea .searchPart form input{
+    width: 35vh;
+    background: transparent;
+    height: 3vh;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-family: "kumbh sans";
+    font-size: 2vh;
+    letter-spacing: 1vh;
+    color:white;
+}
+.jobs .JobsArea .searchPart form button{
+    height: 4vh;
+    width: 12vh;
+    border-radius: 2vh;
+    font-family: "kumbh sans";
+    font-size: 2vh;
+}
+.jobs .JobsArea .cardPart{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vh;
+    padding: 2vh;
+}
+
+/* Added the No jobs found message */
+.noJobs {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #888;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}

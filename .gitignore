@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Dependencies (re-created with `npm install` / `pip install -r requirements.txt`)
+# ---------------------------------------------------------------------------
+node_modules/
+
+# Python virtual environments + caches
+alindo/
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# ---------------------------------------------------------------------------
+# Secrets - NEVER commit these. BackEnd/.env holds DB_URI, JWT_SECRET, API keys.
+# Copy BackEnd/.env.example to BackEnd/.env after cloning.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+
+# ---------------------------------------------------------------------------
+# Files uploaded by users while the app runs (personal data: CVs, photos, logos).
+# The server re-creates these folders on startup.
+# ---------------------------------------------------------------------------
+BackEnd/uploads/*
+BackEnd/src/ResumeUploads/*
+BackEnd/src/CompanyImage/*
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+dist/
+dist-ssr/
+build/
+
+# ---------------------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------------------------------------------------------------------------
+# Editor / OS files
+# ---------------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local settings
+.claude/settings.local.json

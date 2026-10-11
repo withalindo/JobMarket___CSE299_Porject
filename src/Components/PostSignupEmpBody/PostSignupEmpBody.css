@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.postSignupEmpBody{
+    min-height: 88vh;
+    width: 35%;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.postSignupEmpBody h1{
+    margin: 2vh;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 4vh;
+}
+.postSignupEmpBody .fullForm .uploadSection button{
+    height: 5vh;
+    width: 40%;
+    margin-left: 2.5vh;
+    border-radius: 15px;
+    font-family: "kumbh sans";
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 4vh;
+    cursor: pointer;
+}
+.postSignupEmpBody .fullForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    
+}
+.postSignupEmpBody .fullForm .infoInputPart1{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin-bottom: 4vh;
+}
+.postSignupEmpBody .fullForm .infoInputPart2{
+    display: flex;
+    margin-bottom: 4vh;
+}
+.postSignupEmpBody .fullForm .infoInputPart2 .district{
+    width: 30%;
+    margin-right: 5vh;
+}
+.postSignupEmpBody .fullForm .infoInputPart2 .selectGen{
+    width: 20%;
+    border-radius: 15px;
+    font-family: "kumbh sans";
+}
+.postSignupEmpBody .fullForm .infoInputPart3{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.postSignupEmpBody .fullForm input{
+    height: 4vh;
+    width: 65%;
+    margin-left: 3vh;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: "kumbh sans";
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+/* Profile picture preview + file chooser */
+.postSignupEmpBody .fullForm .uploadSection{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+}
+.postSignupEmpBody .fullForm .uploadSection .uploadControls{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.postSignupEmpBody .fullForm .uploadSection .uploadControls input{
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    border-bottom: none;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.postSignupEmpBody .fullForm input[readonly]{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.postSignupEmpBody .fullForm .formError{
+    margin-left: 3vh;
+    color: #ff6b6b;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.postSignupEmpBody .fullForm .infoInputPart3 button:disabled{
+    opacity: 0.6;
+    cursor: wait;
+}
+.postSignupEmpBody .fullForm .infoInputPart3 button{
+    height: 5vh;
+    width: 30%;
+    margin-left: 2.5vh;
+    border-radius: 15px;
+    font-family: "kumbh sans";
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+

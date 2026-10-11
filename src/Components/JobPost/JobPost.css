@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.JobPost{
+    height: 55vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+    font-family: 'kumbh sans';
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+}
+.JobPost .headingPart{
+    font-size: 5vh;
+    font-weight: 500;
+    letter-spacing: 2vh;
+    margin-bottom: 3vh;
+}
+.JobPost .formPart .inputs{
+    display: flex;
+    flex-direction: column;
+}
+.JobPost .formPart .inputs input{
+    height: 5vh;
+    width: 100vh;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    margin-bottom: 2vh;
+    font-family: 'kumbh sans';
+    font-size: 20px;
+    letter-spacing: 0.5vh;
+    color: white;
+}
+.JobPost .formPart .inputs button{
+    height: 5vh;
+    width: 25vh;
+    letter-spacing: 0.5vh;
+    font-family: 'kumbh sans';
+    font-size: 15px;
+    border-radius: 2vh;
+    font-weight: 500;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.postSignupEmp{
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-family: "kumbh sans";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

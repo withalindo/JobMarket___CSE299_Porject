@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HomeUser{
+    height: 230vh;
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-family: "kumbh sans";
+}
+.HomeUser .topJobCorner{
+    height: 65vh;
+    width: 95%;
+    border-bottom: 1px solid white;
+    margin-bottom: 2vh;
+    padding: 1.5vh;
+}
+.HomeUser .jobsForYouCorner{
+    height: 65vh;
+    width: 95%;
+    border-bottom: 1px solid white;
+    margin-bottom: 2vh;
+    padding: 2vh;
+}
+.HomeUser .topUserCorner{
+    height: 65vh;
+    width: 95%;
+    border-bottom: 1px solid white;
+    margin-bottom: 2vh;
+    padding: 2vh;
+}
+.titlePart{
+    margin-bottom: 1vh;
+}
+.titlePart h1{
+    font-size: 6vh;
+    font-family: "kumbh sans";
+    font-weight: 700;
+    letter-spacing: 1vh;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}

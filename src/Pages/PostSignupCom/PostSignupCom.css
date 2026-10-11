@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.postSignupCom{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}

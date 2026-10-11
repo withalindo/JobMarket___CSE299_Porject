@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Software Engineer",
+    "company": "TechNova",
+    "description": "Develop and maintain web applications using React and Node.js.",
+    "category": "Engineer",
+    "location": "Dhaka",
+    "postedAt": "2025-08-01T09:00:00.000Z"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "DataVision",
+    "description": "Analyze large datasets and generate business insights.",
+    "category": "Analytics",
+    "location": "Chittagong",
+    "postedAt": "2025-08-02T10:00:00.000Z"
+  },
+  {
+    "title": "Marketing Manager",
+    "company": "MarketMakers",
+    "description": "Lead the marketing team and manage campaigns.",
+    "category": "Marketing",
+    "location": "Dhaka",
+    "postedAt": "2025-08-03T11:00:00.000Z"
+  },
+  {
+    "title": "Network Administrator",
+    "company": "NetSecure",
+    "description": "Manage and secure company networks and servers.",
+    "category": "IT",
+    "location": "Sylhet",
+    "postedAt": "2025-08-04T12:00:00.000Z"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "BS23",
+    "description": "Develop scalable web applications and REST APIs.",
+    "category": "Engineer",
+    "location": "Dhaka",
+    "postedAt": "2025-08-01T09:00:00.000Z",
+    "companyLogo": "BackEnd/src/CompanyImage/BS23Image.png"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "BS23",
+    "description": "Analyze business data and create insightful reports.",
+    "category": "Analytics",
+    "location": "Dhaka",
+    "postedAt": "2025-08-02T10:00:00.000Z",
+    "companyLogo": "BackEnd/src/CompanyImage/BS23Image.png"
+  }
+
+]

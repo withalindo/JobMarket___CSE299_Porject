@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HomeCom{
+    height: 250vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'kumbh sans';
+}
+.HomeCom .jobPostField .topJobField{
+    height: 70vh;
+    width: 95%;
+    border-bottom: 1px solid white;
+    margin-bottom: 2vh;
+    padding: 1.5vh;
+}
+.HomeCom .jobPostField .topJobField .headingPart1{
+    margin-bottom: 2vh;
+    font-size: 40px;
+}
+.HomeCom .jobPostField .topUserField{
+    height: 60vh;
+    width: 95%;
+    border-bottom: 1px solid white;
+    margin-bottom: 2vh;
+    padding: 1.5vh;
+}
+.HomeCom .jobPostField .topUserField .headingPart2{
+    margin-bottom: 3vh;
+    font-size: 40px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}

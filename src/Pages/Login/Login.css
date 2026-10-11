@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: "kumbh sans";
+}
+.login .mainLoginArea{
+    height: 75%;
+    width:40%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login .mainLoginArea .companyName .job{
+    font-family: "Limelight";
+    letter-spacing: 2px;
+    font-size: 90px;
+}
+.login .mainLoginArea .companyName .market{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.login .mainLoginArea .inputfields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top: 10vh;
+}
+.login .mainLoginArea .inputfields input{
+    height: 5vh;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    font-family: "kumbh sans";
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: white;
+}
+.login .mainLoginArea .inputfields button{
+    width: 30vh;
+    height: 7vh;
+    border-radius: 15px;
+    font-family: "kumbh sans";
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.login .mainLoginArea .socialzone{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+.login .mainLoginArea .socialzone h1{
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.login .mainLoginArea .socialzone .socialbtns{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.login .mainLoginArea .socialzone .socialbtns button{
+    width: 25vh;
+    height: 7vh;
+    border-radius: 15px;
+    font-family: "kumbh sans";
+    font-size: 20px;
+    letter-spacing: 3px;
+}

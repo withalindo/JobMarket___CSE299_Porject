@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.LandPage4{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "kumbh sans";
+    overflow-x: hidden;
+}
+.LandPage4 .textPart{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.LandPage4 .textPart h2{
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.LandPage4 .textPart h1{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.LandPage4 .scrollPart{
+    background-color: yellow;
+    height: 32%;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.LandPage4 .scrollPart h1{
+    font-size: 180px;
+    letter-spacing: 25px;
+}

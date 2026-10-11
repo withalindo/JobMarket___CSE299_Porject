@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HomeUserHeader{
+    height: 10vh;
+    width: 100%;
+    font-family: "Kumbh sans";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh;
+}
+.HomeUserHeader .namePart{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+.HomeUserHeader .namePart .welcomePart{
+    letter-spacing: 1vh;
+    color: green;
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+.HomeUserHeader .namePart h1{
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.HomeUserHeader .catagoryPart .catagory{
+    letter-spacing: 1vh;
+    color: green;
+    font-size: 40px;
+    font-weight: 300;
+}
+.HomeUserHeader .catagoryPart h1{
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+

@@ -1,0 +1,9 @@
+Flask
+# The .joblib models in predictionModels/ were trained with scikit-learn 1.6.1. Use exactly that
+# version where it is available (Python 3.13 or older); Python 3.14 has no 1.6.1 build, so it
+# gets the newest release instead (loading the models there may print a version warning).
+scikit-learn==1.6.1; python_version < "3.14"
+scikit-learn; python_version >= "3.14"
+joblib
+waitress
+xgboost

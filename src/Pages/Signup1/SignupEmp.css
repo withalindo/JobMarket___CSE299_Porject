@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.signupemp{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: "kumbh sans";
+}
+.signupemp .mainPart{
+    height: 90%;
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.signupemp .mainPart .textZone{
+    height: 100%;
+    width: 48%;
+    padding: 15px;
+}
+.signupemp .mainPart .formZone{
+    height: 100%;
+    width: 48%;
+    
+}
+.signupemp .mainPart .textZone .job{
+    font-family: "Limelight";
+    letter-spacing: 2px;
+    font-size: 100px;
+}
+.signupemp .mainPart .textZone .market{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.signupemp .mainPart .textZone .paragraphZone{
+    height: 40%;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10vh;
+    letter-spacing: 2px;
+}
+.signupemp .mainPart .textZone .buttonZone{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+.signupemp .mainPart .textZone .buttonZone .signupEmp{
+    height: 8vh;
+    width: 60vh;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: "kumbh sans";
+    letter-spacing: 3px;
+    cursor:pointer;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.signupemp .mainPart .textZone .buttonZone .signupCom{
+    height: 8vh;
+    width: 60vh;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: "kumbh sans";
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.signupemp .mainPart .formZone{
+    padding: 20px;
+}
+.signupemp .mainPart .formZone .header{
+    margin: 5px;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.signupemp .mainPart .formZone .formInput .form1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.signupemp .mainPart .formZone .formInput{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.signupemp .mainPart .formZone .formInput input{
+    width: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.signupemp .mainPart .formZone .formInput .form1 button{
+    height: 40px;
+    width: 30vh;
+    border-radius: 15px;
+    font-family: "kumbh sans";
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+.signupemp .mainPart .formZone .socialsignup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.signupemp .mainPart .formZone .socialsignup .socialButtons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.signupemp .mainPart .formZone .socialsignup .socialButtons button{
+    height: 40px;
+    width: 35vh;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: "kumbh sans";
+    letter-spacing: 2px;
+}
+.signupemp .mainPart .formZone .socialsignup h1{
+    font-weight: 200;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.signupemp .mainPart .formZone .socialsignup .special{
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+}

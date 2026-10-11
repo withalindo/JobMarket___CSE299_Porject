@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.User{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "kumbh sans";
+}
+.User .header{
+    border-bottom: 1px solid white;
+    margin-bottom: 3vh;
+}
+.User .userArea .searchPart{
+    width: 95%;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+.User .userArea .searchPart form input{
+    width: 35vh;
+    background: transparent;
+    height: 3vh;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-family: "kumbh sans";
+    font-size: 2vh;
+    letter-spacing: 1vh;
+    color:white;
+}
+.User .userArea .searchPart form button{
+    height: 4vh;
+    width: 12vh;
+    border-radius: 2vh;
+    font-family: "kumbh sans";
+    font-size: 2vh;
+}
+.User .userArea .cardPart{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vh;
+    padding: 2vh;
+}

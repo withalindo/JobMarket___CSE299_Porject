@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.postSignupComBody{
+    min-height: 85vh;
+    width: 75%;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 2vh;
+    font-family: "kumbh sans";
+}
+.postSignupComBody h1{
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.postSignupComBody .postSignupForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.postSignupComBody .postSignupForm .pictureSec{
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+.postSignupComBody .postSignupForm .pictureSec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+}
+.postSignupComBody .postSignupForm .pictureSec hr{
+    width: 100%;
+    margin-top: 1vh;
+}
+.postSignupComBody .postSignupForm .inputSec input[readonly]{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.postSignupComBody .postSignupForm .formError{
+    color: #ff6b6b;
+    letter-spacing: 1px;
+}
+.postSignupComBody .postSignupForm .textBoxSec button:disabled{
+    opacity: 0.6;
+    cursor: wait;
+}
+.postSignupComBody .postSignupForm .pictureSec button{
+    height: 5vh;
+    width: 20vh;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    font-family: "kumbh sans";
+    font-size: 20px;
+
+}
+.postSignupComBody .postSignupForm .inputSec{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-bottom: 3vh;
+}
+.postSignupComBody .postSignupForm .inputSec input{
+    width: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-family: "kumbh sans";
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+}
+.postSignupComBody .postSignupForm .textBoxSec{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+}
+.postSignupComBody .postSignupForm .textBoxSec textarea{
+    width: 65%;
+    border-radius: 15px;
+    padding: 1vh;
+    font-family: "kumbh sans";
+    letter-spacing: 2px;
+}
+.postSignupComBody .postSignupForm .textBoxSec button{
+    height: 5vh;
+    width: 25vh;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+    font-family: "kumbh sans";
+    font-size: 20px;
+    letter-spacing: 2px;
+}

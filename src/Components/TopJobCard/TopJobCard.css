@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+.topjobcard{
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid white;
+    border-radius: 2%;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+.topjobcard .part1{
+    height: 55%;
+    width: 100%;
+    background-color:lightblue;
+}
+.topjobcard .part1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.topjobcard .part1 .logoFallback{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 300;
+    color: black;
+}
+.topjobcard .part2{
+    padding: 5px;
+}
+.topjobcard .part2 h1{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.topjobcard .part2 p{
+    font-weight: 200;
+}
+.topjobcard .part2 button{
+    margin-top: 15px;
+    height: 40px;
+    width: 30%;
+    border-radius: 30px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    letter-spacing: 2px;
+}

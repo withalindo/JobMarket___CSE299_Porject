@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "kumbh sans";
+}
+.profile .profileLoading{
+    padding: 5vh;
+    letter-spacing: 3px;
+}
+.profile .profileCard{
+    width: 80%;
+    max-width: 900px;
+    margin: 3vh auto;
+    padding: 4vh;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.profile .profileTop{
+    display: flex;
+    align-items: center;
+    gap: 4vh;
+    margin-bottom: 3vh;
+}
+.profile .profileTitle h1{
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 2vh;
+}
+.profile .uploadButton{
+    display: inline-block;
+    padding: 1vh 2.5vh;
+    border-radius: 3vh;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.profile .uploadButton.disabled{
+    opacity: 0.6;
+    cursor: wait;
+}
+.profile .uploadButton input{
+    display: none;
+}
+.profile .profileStatus{
+    margin-bottom: 2vh;
+    letter-spacing: 1px;
+}
+.profile .profileStatus.error{
+    color: #ff6b6b;
+}
+.profile .profileStatus.success{
+    color: lightgreen;
+}
+.profile .profileDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vh 4vh;
+    margin-bottom: 3vh;
+}
+.profile .profileDetails dt{
+    color: lightgreen;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.profile .profileDetails dd{
+    font-size: 18px;
+    letter-spacing: 1px;
+    overflow-wrap: anywhere;
+}
+.profile .profileSection{
+    border-top: 1px solid #444;
+    padding-top: 2vh;
+    margin-top: 2vh;
+}
+.profile .profileSection h2{
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 1vh;
+}
+.profile .profileSection p{
+    margin-bottom: 1.5vh;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+.profile .profileSection a{
+    color: lightgreen;
+}
