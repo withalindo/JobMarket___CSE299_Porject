@@ -342,15 +342,6 @@ Upload rules: images must be JPG, PNG, WEBP or GIF; resumes must be PDF; the lim
 
 ---
 
-## Known limitations
-
-- **Apply now** on a job card is a placeholder; there is no application workflow yet.
-- There is no automated test suite.
-- There is no password reset or email verification.
-- `jobs.json` holds sample data but there is no import script.
-
----
-
 ## Contributing
 
 1. Fork the repository and create a branch: `git checkout -b feature/my-change`
