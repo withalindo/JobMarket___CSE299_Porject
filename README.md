@@ -20,7 +20,6 @@ Built as a CSE299 course project.
 - [API reference](#api-reference)
 - [Security notes](#security-notes)
 - [Troubleshooting](#troubleshooting)
-- [Known limitations](#known-limitations)
 - [Contributing](#contributing)
 
 ---
